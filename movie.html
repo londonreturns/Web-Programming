@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel ="stylesheet" href = "moviestyle.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container1{
+            background-color: brown;
+        }
+        .container2{
+            background-color: beige;
+        }
+        #id_Header{
+            font-family: fantasy;
+            color:blue;
+        }
+        aside{
+            width: 30%;
+            padding: 15px;
+            margin: 15px;
+            float: right;
+            font-style: italic;
+            background-color: lightblue;
+            font-weight: 1;
+        }
+        button{
+            padding: 20px;
+            margin: 15px;
+            background-color: green;
+        }
+        button:hover{
+            background-color: royalblue;
+        }
+        input[type="text"]{
+            background-color: red;
+        }
+        input:focus{
+            background-color: coral;
+        }
+        header{
+            background-image: url("a.png");
+            height: 350px;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <header><h1 id="id_Header">Netflix</h1>
+        <nav>
+            <a href="#id_Header">EEAAO</a>|
+            <a href="tvseries.html">TV series</a>|
+            <a href="tvseries.html">Movies</a>|
+            <a href="tvseries.html">Genre</a>
+        </nav>
+        <button style="color: blue">Login</button>
+        <button>Sign Up</button>
+    </header>
+    <aside>
+        <h1>Genre</h1>
+        <p>Comedy</p>
+        <p>Action</p>
+        <p>Adventure</p>
+    </aside>
+    <section class="container1">
+        <h1>Everything Everywhere All At Once</h1>
+        <p>When an interdimensional rupture unravels reality, an unlikely hero must channel her newfound powers to fight bizarre and bewildering dangers from the multiverse as the fate of the world hangs in the balance.</p>
+        <img src="eeaao.jpg" width="500px" alt="Everything Everywhere All At Once">
+    </section>
+    <aside>
+        <h1>Genre</h1>
+        <p>Animation</p>
+        <p>Comedy</p>
+        <p>Action</p>
+    </aside>    
+    <main class="container2">
+        <h1>Puss In Boots: The Last Wish</h1>
+        <p>Puss in Boots discovers that his passion for adventure has taken its toll when he learns that he has burnt through eight of his nine lives. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.</p>
+        <img src="puss.jpg">
+    </main>
+    <section>
+        <form>
+            <h2>User Login Page</h2>
+            <label>Enter your email:</label><br>
+            <input type="text" required><br><br>
+            <label>Enter your password:</label><br>
+            <input type="password" required><br><br>
+            <button>Sign-Up</button>
+        </form>
+    </section>
+    <footer>
+        <p>Copyright 2023</p>
+        <a href=""><img src="a.png" alt="a.png" width="50px"></a>
+        <a href=""><img src="profilepic.png" alt="a.png" width="50px"></a>
+    </footer>
+</body>
+</html>
