@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="box">This is paragraph1</p>
+    <p class="box">This is paragraph2</p>
+    <p class="box">This is paragraph3</p>
+    <p class="box">This is paragraph4</p>
+    <p>This is paragraph5</p>
+    <a href="" class="box">This is a link</a>
+    <button onclick=changeStyling()>Click me</button>
+    <script>
+        let para = document.getElementsByClassName("box");
+        function changeStyling(){
+        for (let i=0; i< para.length; i++){
+            para[i].style.color = 'red';
+        }
+    }
+    </script>
+</body>
+</html>
